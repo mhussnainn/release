@@ -81,6 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Release Massage Therapy" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Release Massage Therapy · Lone Tree, CO" },
+      { name: "twitter:title", content: "Release Massage Therapy · Lone Tree, CO" },
+      { name: "description", content: "Release Wellness Hub is a website for Release Massage Therapy, offering booking and information." },
+      { property: "og:description", content: "Release Wellness Hub is a website for Release Massage Therapy, offering booking and information." },
+      { name: "twitter:description", content: "Release Wellness Hub is a website for Release Massage Therapy, offering booking and information." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/rE8gGY3PFHNtLMOIGT9RojLVXCH3/social-images/social-1780172152010-IMG_5253.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/rE8gGY3PFHNtLMOIGT9RojLVXCH3/social-images/social-1780172152010-IMG_5253.webp" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
