@@ -19,12 +19,13 @@ export function SiteNav() {
           <Link to="/reviews" className={linkCls} activeProps={activeCls}>Reviews</Link>
           <Link to="/contact" className={linkCls} activeProps={activeCls}>Visit</Link>
         </div>
-        <a
-          href="tel:+17192404883"
+        <Link
+          to="/book"
           className="hidden sm:inline-block px-6 lg:px-8 py-3 bg-moss text-linen text-xs uppercase tracking-widest hover:bg-sage transition-all"
         >
           Book Session
-        </a>
+        </Link>
+
         <button
           aria-label="Toggle menu"
           className="md:hidden text-moss"
@@ -41,7 +42,8 @@ export function SiteNav() {
           <Link to="/about" onClick={() => setOpen(false)}>About</Link>
           <Link to="/reviews" onClick={() => setOpen(false)}>Reviews</Link>
           <Link to="/contact" onClick={() => setOpen(false)}>Visit</Link>
-          <a href="tel:+17192404883" className="text-sage">719-240-4883</a>
+          <Link to="/book" onClick={() => setOpen(false)} className="text-sage">Book Session</Link>
+
         </div>
       )}
     </nav>
