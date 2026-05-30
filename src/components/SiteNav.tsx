@@ -42,7 +42,8 @@ export function SiteNav() {
           <Link to="/about" onClick={() => setOpen(false)}>About</Link>
           <Link to="/reviews" onClick={() => setOpen(false)}>Reviews</Link>
           <Link to="/contact" onClick={() => setOpen(false)}>Visit</Link>
-          <a href="tel:+17192404883" className="text-sage">719-240-4883</a>
+          <Link to="/book" onClick={() => setOpen(false)} className="text-sage">Book Session</Link>
+
         </div>
       )}
     </nav>
