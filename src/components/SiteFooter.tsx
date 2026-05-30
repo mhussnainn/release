@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-1">
           <Link to="/" className="text-2xl font-serif tracking-tight font-semibold">
-            Release <span className="text-sage italic">5.0</span>
+            Release <span className="text-sage italic">Massage Therapy</span>
           </Link>
           <p className="mt-4 text-sm text-moss/60 leading-relaxed">
             A sanctuary for therapeutic massage, energy work, and mindset coaching in Lone Tree, Colorado.
