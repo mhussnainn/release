@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "api/**": { "runtime": "@vercel/node" }
-  }
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": null
 }
